@@ -1,0 +1,17 @@
+section > ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0%;
+    background-color: red;
+}
+
+section > ul > li{
+    padding: 10px;
+}
+
+@media screen and (max-width:600px){
+    section > ul{
+        flex-direction: column;
+}
+}
